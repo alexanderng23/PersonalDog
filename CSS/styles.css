@@ -1,6 +1,7 @@
 /**** Tag Selectors****/
 div {
-
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 body {
@@ -8,7 +9,8 @@ body {
     text-align: center;
     margin: 0;
     font-family: 'Merriweather', serif;
-    background-color: #f4f9f9;
+    background-color: white;
+    color: #40514E;
 }
 
 h1 {
@@ -33,27 +35,28 @@ h3 {
 p {
     display: block;
     font-weight: bold;
-    color: #064420;
+    line-height: 2;
     font-family: 'Montserrat', sans-serif;
     margin: 20px auto 30px auto;
+
 }
 
 a {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #11999E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 hr {
-    border-top-style: dotted;
-    border-bottom-style: none;
-    border-right-style: none;
-    border-left-style: none;
-    border-width: 10px;
-    border-color: #bb371a;
-    width: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    border: dotted #d1d9d9 8px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 img {
@@ -65,14 +68,20 @@ img {
   margin: 0;
   position: relative;
   padding-top: 100px;
+  background-color: #EAF6F6;
 }
 
 .middle-container{
-  position: relative;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 
 .bottom-container{
   position: relative;
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  line-height: 2;
 }
 
 .top-cloud{
@@ -92,51 +101,103 @@ img {
 }
 
 .profile-img{
-  border-radius: 10% 30% 50% 70%;
+  border-radius: 100%;
+}
+
+.intro{
+  width: 60%;
+  margin: auto auto;
+}
+
+.skills{
+  padding: 0;
 }
 
 .skill-img-one{
   width: 25%;
   border-radius: 100%;
-  float: left;
   margin-right: 30px;
+  float: left;
 }
 
 .skill-img-two{
   width: 25%;
   border-radius: 100%;
-  float: right;
   margin-left: 30px;
-}
+  float: right;
 
-.btn {
-
-}
-
-.footer-link {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  color: #11999E;
-}
-
-.attribution {
-  font-size: x-small;
-}
-
-.professional{
-  font-weight: normal;
 }
 
 .skill-row{
-  width: 50%;
-  margin: 150px auto;
+  padding: 0;
   text-align: left;
-  line-height: 2;
+  margin: 75px auto 75px auto;
+  overflow: auto;
 }
 
 .skill-description{
 
 }
 
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+  margin: 10px;
+
+}
+
+.attribution {
+  font-size: x-small;
+
+}
+
+.professional{
+  font-weight: normal;
+}
+
+.contact-message{
+ width: 50%;
+margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
+}
 
 /**** ID Selectors****/
